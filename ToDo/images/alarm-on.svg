@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="183.807 174.534 148.283 148.614" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="400" y1="252.764" x2="400" y2="934.626" id="gradient-1">
+      <stop offset="0" style="stop-color: rgb(152, 147, 0);"/>
+      <stop offset="1" style="stop-color: rgb(255, 229, 57);"/>
+    </linearGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="400.004" cy="1001.386" r="80" id="gradient-0">
+      <stop offset="0" style="stop-color: rgb(181, 181, 5);"/>
+      <stop offset="1" style="stop-color: rgb(225, 225, 0);"/>
+    </radialGradient>
+  </defs>
+  <g transform="matrix(0.184238, 0, 0, 0.176473, 183.150452, 176.268021)" style="">
+    <g transform="translate(0 -252.36)" fill="#353535">
+      <path d="m359.46 341.17c-134.57 3.4551-183.04 131.52-190.11 200.44-27.31 347.03-80.955 359.79-146.05 363.31-17.863 0-17.609 29.706 0 29.706h753.4c17.609 0 17.863-29.706 0-29.706-65.096-3.5224-118.8-21.45-146.11-368.48-5.7731-65.039-55.477-191.82-190.05-195.27 0-119.38-79.898-116.36-81.082 0z" fill-rule="evenodd" style="fill: url(#gradient-1);"/>
+      <path d="m323.14 950.41a79.994 79.994 0 0 0 -3.1361 21.951 79.994 79.994 0 0 0 80 80.002 79.994 79.994 0 0 0 80 -80.002 79.994 79.994 0 0 0 -3.0791 -21.951h-153.78z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation: auto; mix-blend-mode: normal; fill: url(#gradient-0);"/>
+    </g>
+  </g>
+</svg>

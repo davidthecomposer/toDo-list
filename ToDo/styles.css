@@ -1,0 +1,227 @@
+.todo-container {
+    width: 380px;
+    height: 480px;
+   
+    border-radius: 2%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/notePad.svg');
+    
+}
+
+h1 {
+ margin-top: 1%;
+ font-family: 'Indie Flower', cursive;
+}
+
+
+.task-super {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.task-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1rem;
+    width: 98%;
+    margin-bottom: 1rem;
+    
+}
+
+.info {
+
+    width: 33%;
+    background-repeat: no-repeat;
+    background-image: url('images/info.svg');
+    cursor: pointer;
+
+}
+
+.alarm {
+    background-image: url('images/alarm-off.svg');
+    width: 33%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.delete {
+    background-image: url('images/delete.svg');
+    width: 33%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.circle {
+    background-image: url('images/empty-circle.svg');
+    width: 10%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.options {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input {
+    outline: none;
+    border: none;
+    background-color: rgba(255, 251, 213, 0);
+    font-family: 'Indie Flower', cursive;
+    font-size: .9rem;
+}
+
+.task-extras {
+    display: none;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    margin-bottom: .25rem;
+    
+   
+}
+
+.info-pane {
+    display: none;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-image: url('images/infoPane.svg');
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: .8rem;
+    
+    
+}
+
+.alarm-options {
+    display: none;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    line-height: 2rem;
+    width: 100%;
+    background-image: linear-gradient(#fbfbf0, #cabe93);
+    color: black;
+}
+
+.alarm-row-toggle {
+    background-image: url("images/alarm-row-off.svg");
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 10%;
+}
+
+.date {
+    border: none;
+    outline: none;
+    height: 50%;
+   
+}
+
+.time{
+    width: 30%;
+    height: 50%;
+    border: none;
+    outline: none;
+}
+
+.alarm-animation {
+    animation: keyframes1 .3s infinite;
+    transform-origin: 50% 10%;
+}
+
+.pane-slide {
+    animation: slideIn .15s linear 1 forwards;
+    
+}
+
+.pane-hide {
+    animation: slideOut .15s linear 1 forwards;
+    
+}
+
+.alarm-slide {
+    animation: slideIn1 .15s linear 1 forwards;
+    
+}
+
+.alarm-hide {
+    animation: slideOut1 .15s linear 1 forwards;
+    
+}
+
+@keyframes keyframes1 {
+    0% {
+        transform: rotate(-10deg);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: rotate(20deg);
+        animation-timing-function: ease-out;
+    }
+}
+ 
+@keyframes slideIn {
+    from {
+        height: 0rem;
+        opacity: 0;
+    }
+
+    to {
+        height: 4.5rem; 
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        height: 4.5rem;
+        opacity: 1;
+    }
+
+    to {
+        height: 0rem; 
+        opacity: 0;
+    }
+}
+
+@keyframes slideIn1 {
+    from {
+        height: 0rem;
+        opacity: 0;
+    }
+
+    to {
+        height: 2rem; 
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut1 {
+    from {
+        height: 2rem;
+        opacity: 1;
+    }
+
+    to {
+        height: 0rem; 
+        opacity: 0;
+    }
+}

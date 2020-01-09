@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="119.791 220.25 265.949 59.092" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="a">
+      <feGaussianBlur stdDeviation="81.084917"/>
+    </filter>
+    <view id="view-1">
+      <title>View 1</title>
+    </view>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="288.95" y1="56.332" x2="288.95" y2="3475.632" id="gradient-0" gradientTransform="matrix(0.112991, 0, 0, 0.108555, 0, 0)">
+      <stop offset="0" style="stop-color: rgb(251, 251, 240);"/>
+      <stop offset="1" style="stop-color: rgb(202, 190, 147);"/>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(0.417497, 0.002952, -0.001124, 0.158927, 93.5289, 207.747864)">
+    <g transform="rotate(11.721 375.49 258.89)">
+      <g stroke-width=".1">
+        <rect transform="matrix(.11047 -.023735 .022163 .10315 300.37 92.346)" x="-2512.5" y="56.332" width="5602.9" height="3419.3" fill="#c8c4b7" filter="url(#a)"/>
+        <rect transform="matrix(0.977688, -0.210061, 0.209655, 0.977775, 308.510803, 74.636459)" x="-283.89" y="6.115" width="633.077" height="371.182" style="paint-order: fill; fill: url(#gradient-0);" rx="6.594" ry="6.594"/>
+      </g>
+      <g transform="matrix(.34629 0 0 .34629 227.1 -36.051)">
+        <g stroke-width=".08"/>
+        <g stroke-width=".1"/>
+        <g stroke-width=".103"/>
+      </g>
+    </g>
+  </g>
+</svg>
