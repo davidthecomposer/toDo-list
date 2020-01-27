@@ -76,7 +76,6 @@ class Task {
 
     initAlarm(thisAlarm) {
         this.unhandleCheckTime();
-        console.log('working');
         thisAlarm.classList.add('alarm-animation');
         this.alarmSound.loop = true;
         this.alarmSound.play();
